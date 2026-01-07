@@ -1,0 +1,17 @@
+
+# 가상환경 및 캐시
+__pycache__/
+.ipynb_checkpoints/
+
+# 데이터셋 (용량이 커서 따로 관리 권장)
+datasets/
+data/*.zip
+data/*.tar.gz
+
+# 학습 결과 중 대용량 가중치 파일 (필요한 경우만 올림)
+runs/
+*.pt
+*.onnx
+
+# 시스템 파일
+.DS_Store
